@@ -12,7 +12,7 @@ In order for these bootstrapping scripts to run, the following dependencies are 
 + java 11 & 8 (if you are setting up a minecraft server, you should have one of these)
 
 * Running
-1. clone this repository into a sub-folder to where you want your server installed. If you wan your server at /minecraft, clone at /minecraft/minecraft-bootstrap, etc.
+1. clone this repository into a sub-folder to where you want your server installed. If you want your server at =/minecraft=, clone at =/minecraft/minecraft-bootstrap=, etc.
 
 2. =cd minecraft-bootstrap=
 

@@ -1,6 +1,6 @@
 #+TITLE: README
 
-This is a collection of the basic configuration files required to get a functional minecraft server off the ground. This will set up a [[papermc.io][paper]] server, along with some reasonable defaults for it and the bukkit/spigot derivative files as well. Basic plugins such as =EssentialsX= and =LuckPerms= will also be downloaded and configured. However, I have nearly no experience with minecraft, so feel free to create issues and pull requests to improve this.
+This is a collection of the basic configuration files required to get a functional minecraft server off the ground. This will set up a [[https://papermc.io][paper]] server, along with some reasonable defaults for it and the bukkit/spigot derivative files as well. Basic plugins such as =EssentialsX= and =LuckPerms= will also be downloaded and configured. However, I have nearly no experience with minecraft, so feel free to create issues and pull requests to improve this.
 
 * Dependencies
 In order for these bootstrapping scripts to run, the following dependencies are required:

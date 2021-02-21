@@ -1,0 +1,18 @@
+#+TITLE: README
+
+This is a collection of the basic configuration files required to get a functional minecraft server off the ground. This will set up a [[papermc.io][paper]] server, along with some reasonable defaults for it and the bukkit/spigot derivative files as well. Basic plugins such as =EssentialsX= and =LuckPerms= will also be downloaded and configured. However, I have nearly no experience with minecraft, so feel free to create issues and pull requests to improve this.
+
+* Usage
+In order for these bootstrapping scripts to run, the following dependencies are required:
++ GNU Stow
++ cURL
++ wget
++ POSIX compliant shell (bash and zsh should work fine)
++ git (if you are using this utility, you already have git)
++ java 11 & 8 (if you are setting up a minecraft server, you should have one of these)
+
+  1. clone this repository into a sub-folder to where you want your server installed. If you wan your server at /minecraft, clone at /minecraft/minecraft-bootstrap, etc.
+
+  2. =cd minecraft-bootstrap=
+
+  3. =./install.sh=

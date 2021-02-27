@@ -169,7 +169,7 @@ overridden-commands:
 disabled-commands:
   #  - nick
   #  - clear
-  - give
+  # - give
 
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or

@@ -1,0 +1,25 @@
+# Ignore data that is generated on install
+plugins/*.jar
+plugins/LuckPerms/libs/
+plugins/LuckPerms/translations/
+plugins/bStats/
+plugins/dynmap/web/
+plugins/dynmap/*.pending
+plugins/dynmap/renderdata/
+plugins/dynmap/export
+plugins/dynmap/texturepacks/
+plugins/Essentials/items.json
+
+# Prevent user data from being stored on git
+**/userdata
+plugins/Essentials/spawn.yml
+plugins/Essentials/usermap.csv
+plugins/LuckPerms/yaml-storage/
+plugins/dynmap/ids-by-ip.txt
+
+# Prevent massive tiles from being stored
+plugins/dynmap/**/tiles/
+
+# Ignore version info
+**/version.txt
+**/version

@@ -8,7 +8,7 @@ plugdir=$installdir/plugins
 
 # Install newest verison of paper
 [ ! -f paperclip.jar ] && curl -o paperclip.jar "https://papermc.io/api/v1/paper/1.16.5/latest/download"
-# 
+#
 # Allow paper to run by agreeing to EULA
 echo "eula=true" > eula.txt
 
@@ -22,13 +22,14 @@ cd $plugdir
 # Resource numbers can be found from searching spiget, or in the spigot url for the plugin
 # TODO Handling files in forms other than *.jar
 # TODO Support BukGet
-PKGS=(    
+PKGS=(
     "Plugman 88135"
     "LuckPerms 28140"
     "Vault 34315"
     "Dynmap 274"
     "Dynmap-structures 39534"
     "LiveAtlas 86939"
+    "FastChunkPregenerator 74429"
 
 )
 

@@ -17,8 +17,10 @@ plugins/Essentials/usermap.csv
 plugins/LuckPerms/yaml-storage/
 plugins/dynmap/ids-by-ip.txt
 
-# Prevent massive tiles from being stored
+# Prevent massive render or cache data
 plugins/dynmap/**/tiles/
+plugins/FastChunkPregenerator/*
+!plugins/FastChunkPregenerator/configuration.yml
 
 # Ignore version info
 **/version.txt
